@@ -5,7 +5,6 @@ function ContactCard({ title, description, onLoginClick }) {
     <Card className="text-end shadow-sm border-0 bg-light h-100">
       <Card.Body className="p-4">
         <div className="d-flex align-items-center mb-3">
-          <span className="text-primary me-2">⬆️</span>
           <Card.Title className="mb-0 fw-bold">{title}</Card.Title>
         </div>
         <Card.Text className="text-muted mb-4">
