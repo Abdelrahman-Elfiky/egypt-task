@@ -6,12 +6,11 @@ function Footer() {
     <footer className="footer-dark text-light py-5 mt-5 w-100" dir="rtl">
       <Container fluid>
         <Row>
-          {/* Logo and Social Media */}
           <Col lg={3} md={6} className="mb-4">
             <div className="mb-4">
               <div className="d-flex align-items-center mb-3">
                 <Image
-                src="../../public/imgs/download-removebg-preview.png" 
+                src="#" 
                 alt="جمهورية مصر العربية" 
                 className="me-2 w-25"
               />
@@ -36,7 +35,6 @@ function Footer() {
             </div>
           </Col>
 
-          {/* Most Requested Services */}
           <Col lg={2} md={6} className="mb-4">
             <h6 className="fw-bold mb-3 text-white footer-heading">الخدمات الاكثر طلبا</h6>
             <ul className="list-unstyled">
@@ -49,7 +47,6 @@ function Footer() {
             </ul>
           </Col>
 
-          {/* Support and Help */}
           <Col lg={2} md={6} className="mb-4">
             <h6 className="fw-bold mb-3 text-white footer-heading">الدعم والمساعدة</h6>
             <ul className="list-unstyled">
@@ -62,7 +59,6 @@ function Footer() {
             </ul>
           </Col>
 
-          {/* More */}
           <Col lg={2} md={6} className="mb-4">
             <h6 className="fw-bold mb-3 text-white footer-heading">المزيد</h6>
             <ul className="list-unstyled">
@@ -75,7 +71,6 @@ function Footer() {
             </ul>
           </Col>
 
-          {/* Contact Information */}
           <Col lg={3} md={6} className="mb-4">
             <h6 className="fw-bold mb-3 text-white footer-heading">تواصل معنا</h6>
             <p className="mb-1 text-light">19 ش المراغي - العجوزة - الجيزة</p>
